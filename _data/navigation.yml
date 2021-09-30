@@ -3,6 +3,10 @@ main:
     url: /
   - title: "Documentation"
     url: /docs/getting-started
+  - title: "Blog"
+    url: /posts
+  - title: "Ressources"
+    url: /ressources
   - title: '<i class="fab fa-github" aria-hidden"true" style="padding-right: 5px;"></i>Github'
     url: "javascript:window.open('https://github.com/mt-ag/apex-flowsforapex', '_blank')"
 

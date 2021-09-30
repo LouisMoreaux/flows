@@ -1,6 +1,6 @@
 ---
 title: "Posts by Year"
-permalink: /posts/
+permalink: /rr/
 layout: posts
-author_profile: true
+author_profile: false
 ---

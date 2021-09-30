@@ -1,9 +1,63 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "Home"
+    url: /
+  - title: "Docs"
+    url: /docs/getting-started
+  - title: '<i class="fab fa-github" aria-hidden"true" style="padding-right: 5px;"></i>Github'
+    url: "javascript:window.open('https://github.com/mt-ag/apex-flowsforapex', '_blank')"
+
+# documentation links
+docs:
+  - title: Getting started
+    url: /docs/getting-started/
+    children:
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "Migration"
+        url: /docs/migration/
+  - title: BPMN
+    url: /docs/bpmn/
+    children: 
+      - title: "Tutorials"
+        url: /docs/tutorials/
+      - title: "Starting and Ending Processes"
+        url: /docs/starting-and-stopping-flows/
+      - title: "Tasks"
+        url: /docs/tasks/
+      - title: "Gateways"
+        url: /docs/gateways/
+      - title: "Sub Processes"
+        url: /docs/subprocesses/
+      - title: "Boundary Events for Sub Processes"
+        url: /docs/subprocesses-boundary-event/
+      - title: "Timers Events"
+        url: /docs/timers/
+      - title: "Lanes"
+        url: /docs/lanes/
+      - title: "Task Reservation"
+        url: /docs/task-reservation/
+      - title: "Link Events"
+        url: /docs/link-events/
+  - title: Flows for APEX Concepts
+    url: /docs/flows-concepts/
+    children:
+      - title: "Process Variable"
+        url: /docs/process-variable/
+      - title: "Variable Expression 🆕"
+        url: /docs/variable-expression/
+      - title: "Event Logging and Audit Trail 🆕"
+        url: /docs/logging/
+      - title: "Configuration Parameter 🆕"
+        url: /docs/configuration/
+      - title: "Subflows"
+        url: /docs/subflows/
+      - title: "Model Versioning 🆕"
+        url: /docs/model-versioning/
+      - title: "Timestamps and Timezones 🆕"
+        url: /docs/timestamps-and-timezones/
+      - title: "Transaction Model 🆕"
+        url: /docs/transaction-model/
+  - title: "PL/SQL API"
+    url: /docs/plsql-api/
+  - title: FAQ
+    url: /docs/faq/

@@ -1,6 +1,6 @@
 ---
-permalink: /ressources/
-title: "Ressources"
+permalink: /resources/
+title: "Resources"
 layout: splash
 ---
 ### Videos

@@ -69,6 +69,7 @@ defaults:
       type: posts
     values:
       layout: single
+      classes: wide
       show_date: true
       show_author: true
       author_profile: true
@@ -88,6 +89,7 @@ defaults:
       path: ""
       type: docs
     values:
+      classes: wide
       layout: single
       read_time: false
       author_profile: false

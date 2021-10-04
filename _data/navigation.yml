@@ -15,16 +15,17 @@ main:
 docs:
   - title: Getting started
     url: /docs/getting-started/
+  - title: Tutorials
+    url: /docs/tutorials/
+  - title: Installation
+    url: /docs/installation/
     children:
-      - title: "Installation"
-        url: /docs/installation/
       - title: "Migration"
         url: /docs/migration/
+      - title: "Deinstallation"
+        url: /docs/deinstallation/
   - title: BPMN
-    url: /docs/bpmn/
     children: 
-      - title: "Tutorials"
-        url: /docs/tutorials/
       - title: "Starting and Ending Processes"
         url: /docs/starting-and-stopping-flows/
       - title: "Tasks"
@@ -44,7 +45,6 @@ docs:
       - title: "Link Events"
         url: /docs/link-events/
   - title: Flows for APEX Concepts
-    url: /docs/flows-concepts/
     children:
       - title: "Process Variable"
         url: /docs/process-variable/

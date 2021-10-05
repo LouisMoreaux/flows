@@ -63,6 +63,6 @@ docs:
       - title: "Transaction Model 🆕"
         url: /docs/transaction-model/
   - title: "PL/SQL API"
-    url: /docs/plsql-api/
+    url: /docs/api/
   - title: FAQ
     url: /docs/faq/

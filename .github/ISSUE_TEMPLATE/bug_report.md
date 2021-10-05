@@ -4,17 +4,19 @@ about: Create a report to help us improve
 title: ''
 labels: ''
 assignees: ''
-body:
-- type: dropdown
-  attributes:
+body: 
+  - attributes: 
+    description: "What version of our software are you running?"
     label: Version
-    description: What version of our software are you running?
     multiple: false
-    options:
-      - label: 1.0.2 (Default)
-      - label: 1.0.3 (Edge)
-  validations:
-    required: true
+    options: 
+      - 
+        label: "1.0.2 (Default)"
+      - 
+        label: "1.0.3 (Edge)"
+    type: dropdown
+    validations: 
+      required: true
 ---
 
 **Describe the bug**

@@ -4,7 +4,17 @@ about: Create a report to help us improve
 title: ''
 labels: ''
 assignees: ''
-
+body:
+- type: dropdown
+  attributes:
+    label: Version
+    description: What version of our software are you running?
+    multiple: false
+    options:
+      - label: 1.0.2 (Default)
+      - label: 1.0.3 (Edge)
+  validations:
+    required: true
 ---
 
 **Describe the bug**

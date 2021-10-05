@@ -64,5 +64,7 @@ docs:
         url: /docs/transaction-model/
   - title: "PL/SQL API"
     url: /docs/api/
+  - title: "Oracle APEX plug-ins"
+    url: /docs/plugins/
   - title: FAQ
     url: /docs/faq/

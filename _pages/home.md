@@ -27,7 +27,6 @@ row2:
         class: "btn--info"
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Try now'
       - url: "https://github.com/mt-ag/apex-flowsforapex/releases/download/v21.1/FLOWSFORAPEX_SAMPLE_APP_EN_APEX201_984342_UTF8.sql"
-        target: "_blank"
         class: "btn--info"
         label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
 row3:

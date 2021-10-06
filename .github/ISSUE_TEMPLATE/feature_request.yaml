@@ -8,6 +8,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this feature request!
+        Please make sure you have tested the latest version of *Flows for APEX*
   - type: textarea
     id: describe-feature
     attributes:

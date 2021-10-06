@@ -11,9 +11,7 @@ body:
     id: oracle_db_version
     attributes:
       label: Oracle Database Version
-      description: > 
-        What is your Oracle Database version?
-        <small>We only support Oracle Database 12.2 and higher</small>
+      description: We only support Oracle Database 12.2 and higher
       options:
         - 12.1 and lower (unsupported)
         - 12.2
@@ -26,9 +24,7 @@ body:
     id: oracle_apex_version
     attributes:
       label: Oracle APEX Version
-      description: >
-        What is your Oracle APEX version?
-        <small>We only support Oracle APEX 20.1 and higher</small>
+      description: We only support Oracle APEX 20.1 and higher
       multiple: true
       options:
         - 19.2 and lower (unsupported)

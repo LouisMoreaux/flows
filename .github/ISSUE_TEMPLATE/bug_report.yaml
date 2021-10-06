@@ -10,23 +10,30 @@ body:
   - type: dropdown
     id: version
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Oracle Database Version
+      description: > 
+        What is your Oracle Database version?
+        <small>We only support Oracle Database 12.2 and higher</small>
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - 12.1 and lower (unsupported)
+        - 12.2
+        - 18
+        - 19
+        - 21
     validations:
       required: true
   - type: dropdown
-    id: browsers
+    id: Oracle APEX Version
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: > 
+        What is your Oracle APEX version?
+        <small>We only support Oracle APEX 20.1 and higher</small>
       multiple: true
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - 19.2 and lower
+        - 20.1
+        - 20.2
+        - 21.1
   - type: textarea
     id: what-happened
     attributes:

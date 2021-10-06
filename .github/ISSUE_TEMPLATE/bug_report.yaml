@@ -47,7 +47,6 @@ body:
       label: Steps to reproduce 
       description: | 
         How we can reproduce your issue
-        Exmaple:
         1. Go to '...'
         2. Click on '....'
         3. Scroll down to '....'

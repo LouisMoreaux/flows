@@ -8,9 +8,19 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: dropdown
+    id: flows4apex_version
+    attributes:
+      label: Flows for APEX version
+      options:
+        - 5.1.1
+        - 5.1.2
+        - 21.1
+    validations:
+      required: true
+  - type: dropdown
     id: oracle_db_version
     attributes:
-      label: Oracle Database Version
+      label: Oracle Database version
       description: We only support Oracle Database 12.2 and higher
       options:
         - 12.1 and lower (unsupported)
@@ -23,7 +33,7 @@ body:
   - type: dropdown
     id: oracle_apex_version
     attributes:
-      label: Oracle APEX Version
+      label: Oracle APEX version
       description: We only support Oracle APEX 20.1 and higher
       options:
         - 19.2 and lower (unsupported)

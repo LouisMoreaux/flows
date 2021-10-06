@@ -55,7 +55,7 @@ body:
     id: step-to-reproduce
     attributes:
       label: Steps to reproduce 
-      description: How we can reproduce your issue
+      description: Help us to reproduce your issue by adding details of the different steps.
   - type: textarea
     id: expected-behaviour
     attributes:

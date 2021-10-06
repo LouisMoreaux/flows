@@ -25,12 +25,13 @@ body:
     attributes:
       label: Oracle APEX Version
       description: We only support Oracle APEX 20.1 and higher
-      multiple: true
       options:
         - 19.2 and lower (unsupported)
         - 20.1
         - 20.2
         - 21.1
+      validations:
+        required: true
   - type: textarea
     id: what-happened
     attributes:

@@ -26,36 +26,36 @@ docs:
         url: /docs/deinstallation/
   - title: BPMN
     children: 
-      - title: "Starting and Ending Processes"
-        url: /docs/starting-and-stopping-flows/
       - title: "Tasks"
         url: /docs/tasks/
       - title: "Gateways"
         url: /docs/gateways/
-      - title: "Sub Processes"
-        url: /docs/subprocesses/
-      - title: "Boundary Events for Sub Processes"
-        url: /docs/subprocesses-boundary-event/
-      - title: "Timers Events"
-        url: /docs/timers/
-      - title: "Lanes"
-        url: /docs/lanes/
-      - title: "Task Reservation"
-        url: /docs/task-reservation/
+      - title: "Start and Stop Events"
+        url: /docs/start-and-stop-events/
+      - title: "Timer Events"
+        url: /docs/timer-events/
+      - title: "Boundary Events"
+        url: /docs/boundary-events/
       - title: "Link Events"
         url: /docs/link-events/
+      - title: "Sub Processes"
+        url: /docs/subprocesses/
+      - title: "Pool and Lanes"
+        url: /docs/pool-and-lanes/
   - title: Flows for APEX Concepts
     children:
+      - title: "Task Reservation"
+        url: /docs/task-reservation/
       - title: "Process Variable"
         url: /docs/process-variable/
       - title: "Variable Expression 🆕"
         url: /docs/variable-expression/
-      - title: "Event Logging and Audit Trail 🆕"
-        url: /docs/logging/
+      - title: "Event Logging and Auditing 🆕"
+        url: /docs/event-logging-and-auditing/
       - title: "Configuration Parameter 🆕"
         url: /docs/configuration/
-      - title: "Subflows"
-        url: /docs/subflows/
+      - title: "About Subflows"
+        url: /docs/about-subflows/
       - title: "Model Versioning 🆕"
         url: /docs/model-versioning/
       - title: "Timestamps and Timezones 🆕"

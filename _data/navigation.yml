@@ -7,6 +7,8 @@ main:
     url: /blog
   - title: "Resources"
     url: /resources
+  - title: "Team"
+    url: /team/
   - title: '<i class="fab fa-github" aria-hidden"true" style="padding-right: 5px;"></i>Github'
     url: "https://github.com/mt-ag/apex-flowsforapex"
     target: "_blank"

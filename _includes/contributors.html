@@ -1,0 +1,78 @@
+<style type="text/css">
+   .team-members {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+   } 
+
+   .member-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px auto 10px auto;
+    display: block;
+   }
+
+   .member-name,
+   .member-bio,
+   .member-links
+    {
+      margin-left: 15px;
+      margin-right: 15px;
+   }
+
+   .member-name {
+      font-weight: bold;
+   }
+
+   .member-bio {
+      font-size: smaller;
+      text-align: justify;
+      margin-bottom: 15px;
+   }
+
+   .member-links {
+      margin-top: auto;
+      margin-bottom: 10px;
+   }
+
+   .member-card {
+     /* Add shadows to create the "card" effect */
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     transition: 0.3s;
+     width:30%;
+     min-width: 300px;
+     display: inline-block;
+     margin-bottom: 15px;
+     margin-right: 15px;
+     display: flex;
+     flex-direction: column;
+   }
+   
+   /* On mouse-over, add a deeper shadow */
+   .member-card:hover {
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+   }
+</style>
+<div class="team-members">
+   {% for member in site.data.team %}
+      <div class="member-card">
+         <img class="member-picture" src="{{ member.image }}">
+         <div class="member-name">{{ member.name }}</div>
+         <div class="member-bio">{{ member.bio }}</div>
+         {% if member.links %}
+            <div class="member-links">
+               {% for link in member.links %}
+               <div class="member-link">
+                  <a href="{{ link.url }}" target="_blank">
+                     <span class="{{ link.icon }}"></span>
+                     <span class="link-label">{{ link.label}}</span>
+                  </a>
+               </div>
+               {% endfor %}
+            </div>
+         {% endif %}
+      </div>
+   {% endfor %}
+</div>

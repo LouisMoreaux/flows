@@ -25,6 +25,7 @@ docs:
       - title: "Deinstallation"
         url: /docs/deinstallation/
   - title: BPMN
+    url: /docs/bpmn/
     children: 
       - title: "Tasks"
         url: /docs/tasks/

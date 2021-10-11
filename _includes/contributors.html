@@ -35,6 +35,8 @@
    .member-links {
       margin-top: auto;
       margin-bottom: 10px;
+      border-top: solid 1px gray;
+      padding-top: 10px;
    }
 
    .member-card {
@@ -50,6 +52,11 @@
      flex-direction: column;
    }
    
+   .member-link > a {
+      text-decoration: none;
+      font-size: smaller;
+   }
+
    /* On mouse-over, add a deeper shadow */
    .member-card:hover {
      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -66,7 +73,7 @@
                {% for link in member.links %}
                <div class="member-link">
                   <a href="{{ link.url }}" target="_blank">
-                     <span class="{{ link.icon }}"></span>
+                     <span class="{{ link.icon }}" aria-hidden="true"></span>
                      <span class="link-label">{{ link.label}}</span>
                   </a>
                </div>

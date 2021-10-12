@@ -62,7 +62,7 @@
    }
 </style>
 <div class="team-members">
-   {% for member in site.data.team %}
+   {% for member in page.members %}
       <div class="member-card">
          <img class="member-picture" src="{{ site.url }}{{ site.baseurl }}{{ member.image }}">
          <div class="member-name">{{ member.name }}</div>

@@ -1,7 +1,7 @@
 ---
 title: "Documentation"
 permalink: /documentation/
-layout: single
+layout: splash
 ---
-
+### Documentation History
 {% include documentation_history.html %}

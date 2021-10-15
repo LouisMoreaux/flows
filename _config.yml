@@ -57,17 +57,28 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-# Collections
 collections:
-  docs:
+  latest:
     output: true
     permalink: /:collection/:path/
+    type: "documentation"
+    display_name: "Latest v21.1"
+    publish_date: 2021-10-13T00:00:00+00:00
+    home_page: getting-started/
+  v5.1.2:
+    output: true
+    permalink: /:collection/:path/
+    type: "documentation"
+    display_name: "v5.1.2"
+    publish_date: 2021-09-13T00:00:00+00:00
+    home_page: getting-started/
 
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
+      permalink: /:collection/:path/
     values:
       layout: single
       classes: wide
@@ -85,10 +96,9 @@ defaults:
     values:
       layout: single
       author_profile: false
-  # _docs
+  # _latest
   - scope:
-      path: ""
-      type: docs
+      type: latest
     values:
       classes: wide
       layout: single
@@ -97,7 +107,19 @@ defaults:
       share: false
       comments: false
       sidebar:
-        nav: "docs"
+        nav: "latest"
+  # _v5.1.2
+  - scope:
+      type: v5.1.2
+    values:
+      classes: wide
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "v5.1.2"
 
 category_archive:
   type: liquid

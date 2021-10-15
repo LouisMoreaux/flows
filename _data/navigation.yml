@@ -2,7 +2,7 @@ main:
   - title: "Home"
     url: /
   - title: "Documentation"
-    url: /docs/getting-started
+    url: /latest/getting-started
   - title: "Blog"
     url: /blog
   - title: "Resources"
@@ -14,60 +14,123 @@ main:
     target: "_blank"
 
 # documentation links
-docs:
+latest:
   - title: Getting started
-    url: /docs/getting-started/
+    url: /latest/getting-started/
   - title: Tutorials
-    url: /docs/tutorials/
+    url: /latest/tutorials/
   - title: Installation
-    url: /docs/installation/
+    url: /latest/installation/
     children:
       - title: "Migration"
-        url: /docs/migration/
+        url: /latest/migration/
       - title: "Deinstallation"
-        url: /docs/deinstallation/
+        url: /latest/deinstallation/
   - title: BPMN
-    url: /docs/bpmn/
+    url: /latest/bpmn/
     children: 
       - title: "Tasks"
-        url: /docs/tasks/
+        url: /latest/tasks/
       - title: "Gateways"
-        url: /docs/gateways/
+        url: /latest/gateways/
       - title: "Start and Stop Events"
-        url: /docs/start-and-stop-events/
+        url: /latest/start-and-stop-events/
       - title: "Timer Events"
-        url: /docs/timer-events/
+        url: /latest/timer-events/
       - title: "Boundary Events"
-        url: /docs/boundary-events/
+        url: /latest/boundary-events/
       - title: "Link Events"
-        url: /docs/link-events/
+        url: /latest/link-events/
       - title: "Sub Processes"
-        url: /docs/subprocesses/
+        url: /latest/subprocesses/
       - title: "Pool and Lanes"
-        url: /docs/pool-and-lanes/
+        url: /latest/pool-and-lanes/
   - title: Flows for APEX Concepts
     children:
       - title: "Task Reservation"
-        url: /docs/task-reservation/
+        url: /latest/task-reservation/
       - title: "Process Variable"
-        url: /docs/process-variable/
+        url: /latest/process-variable/
       - title: "Variable Expression 🆕"
-        url: /docs/variable-expression/
+        url: /latest/variable-expression/
       - title: "Event Logging and Auditing 🆕"
-        url: /docs/event-logging-and-auditing/
+        url: /latest/event-logging-and-auditing/
       - title: "Configuration Parameter 🆕"
-        url: /docs/configuration/
+        url: /latest/configuration/
       - title: "About Subflows"
-        url: /docs/about-subflows/
+        url: /latest/about-subflows/
       - title: "Model Versioning 🆕"
-        url: /docs/model-versioning/
+        url: /latest/model-versioning/
       - title: "Timestamps and Timezones 🆕"
-        url: /docs/timestamps-and-timezones/
+        url: /latest/timestamps-and-timezones/
       - title: "Transaction Model 🆕"
-        url: /docs/transaction-model/
+        url: /latest/transaction-model/
   - title: "PL/SQL API"
-    url: /docs/api/
+    url: /latest/api/
   - title: "Oracle APEX plug-ins"
-    url: /docs/plugins/
+    url: /latest/plugins/
   - title: FAQ
-    url: /docs/faq/
+    url: /latest/faq/
+  - title: Other Versions
+    url: /documentation/
+
+# documentation links
+v5.1.2:
+  - title: Getting started
+    url: /v5.1.2/getting-started/
+  - title: Tutorials
+    url: /v5.1.2/tutorials/
+  - title: Installation
+    url: /v5.1.2/installation/
+    children:
+      - title: "Migration"
+        url: /v5.1.2/migration/
+      - title: "Deinstallation"
+        url: /v5.1.2/deinstallation/
+  - title: BPMN
+    url: /v5.1.2/bpmn/
+    children: 
+      - title: "Tasks"
+        url: /v5.1.2/tasks/
+      - title: "Gateways"
+        url: /v5.1.2/gateways/
+      - title: "Start and Stop Events"
+        url: /v5.1.2/start-and-stop-events/
+      - title: "Timer Events"
+        url: /v5.1.2/timer-events/
+      - title: "Boundary Events"
+        url: /v5.1.2/boundary-events/
+      - title: "Link Events"
+        url: /v5.1.2/link-events/
+      - title: "Sub Processes"
+        url: /v5.1.2/subprocesses/
+      - title: "Pool and Lanes"
+        url: /v5.1.2/pool-and-lanes/
+  - title: Flows for APEX Concepts
+    children:
+      - title: "Task Reservation"
+        url: /v5.1.2/task-reservation/
+      - title: "Process Variable"
+        url: /v5.1.2/process-variable/
+      - title: "Variable Expression 🆕"
+        url: /v5.1.2/variable-expression/
+      - title: "Event Logging and Auditing 🆕"
+        url: /v5.1.2/event-logging-and-auditing/
+      - title: "Configuration Parameter 🆕"
+        url: /v5.1.2/configuration/
+      - title: "About Subflows"
+        url: /v5.1.2/about-subflows/
+      - title: "Model Versioning 🆕"
+        url: /v5.1.2/model-versioning/
+      - title: "Timestamps and Timezones 🆕"
+        url: /v5.1.2/timestamps-and-timezones/
+      - title: "Transaction Model 🆕"
+        url: /v5.1.2/transaction-model/
+  - title: "PL/SQL API"
+    url: /v5.1.2/api/
+  - title: "Oracle APEX plug-ins"
+    url: /v5.1.2/plugins/
+  - title: FAQ
+    url: /v5.1.2/faq/
+  - title: Other Versions
+    url: /documentation/

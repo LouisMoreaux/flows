@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/RunningFlows.gif
   actions:
     - label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Try now'
-      url: {{ site.engine_app_demo_url }}
+      url: "https://apex.oracle.com/pls/apex/mtflows/r/flowsforapex"
       target: "_blank"
     - label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
       url: "https://github.com/mt-ag/apex-flowsforapex/releases/download/v21.1/FLOWSFORAPEX_APEX201_984339_UTF8.sql"

@@ -7,12 +7,12 @@ header:
   overlay_image: /assets/images/RunningFlows.gif
   actions:
     - label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Try now'
-      url: "https://apex.oracle.com/pls/apex/mtflows/r/flowsforapex"
+      url: {{ site.engine_app_demo_url }}
       target: "_blank"
     - label: '<i class="fas fa-cloud-download-alt" aria-hidden="true" style="padding-right: 5px;"></i>Download'
       url: "https://github.com/mt-ag/apex-flowsforapex/releases/download/v21.1/FLOWSFORAPEX_APEX201_984339_UTF8.sql"
     - label: "Learn more"
-      url: "/docs/getting-started/"
+      url: "/latest/getting-started/"
 excerpt: >
   Oracle APEX extension for BPMN based workflows
 row1:
@@ -34,7 +34,7 @@ row3:
     excerpt: 'Model your business processes by adding activities and gateways in a graphical way.'
     image_path: "/assets/images/modeler.gif"
     actions:
-      - url: "/docs/getting-started/"
+      - url: "/latest/getting-started/"
         class: "btn--info"
         label: 'Learn More'
     
@@ -47,7 +47,7 @@ row4:
         - Manage Flow Instance Variables: set and get process variables
     image_path: "/assets/images/process-plugins.png"
     actions:
-      - url: "/docs/plugins/"
+      - url: "/latest/plugins/"
         class: "btn--info"
         label: 'Learn More'
 row5:
@@ -59,7 +59,7 @@ row5:
         - to restart steps in error after fixing the issue
     image_path: "/assets/images/dashboard.png"
     actions:
-      - url: "/docs/getting-started"
+      - url: "/latest/getting-started"
         class: "btn--info"
         label: 'Learn More'
 row6:

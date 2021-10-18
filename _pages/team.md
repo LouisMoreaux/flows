@@ -4,7 +4,9 @@ title: "Team"
 layout: splash
 members:
    - name: "Niels de Brujin"
-     bio: "Business Unit Manager@MT AG, Director Development Community@DOAG e.V., Oracle ACE Director"
+     bio: >
+      Niels has been working with Oracle APEX since its initial public release back in 2004. Together with a team of APEX specialists, Niels is responsible for delivering high-quality APEX projects. His contributions to the APEX community range from presenting and publishing articles on apex.mt-ag.com to initiating and promoting open source solutions like Flows for APEX. <br>
+      Niels is an Oracle ACE Director and Director of the development community at the German Oracle User Group (www.doag.org).
      image: "/assets/images/nielsdebrujin2.jpg"
      links:
        - label: "Twitter"

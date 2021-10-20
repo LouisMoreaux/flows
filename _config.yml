@@ -61,20 +61,13 @@ collections:
     permalink: /:collection/:path/
     type: "documentation"
     display_name: "Development"
-    publish_date: 2021-10-25T00:00:00+00:00
+    publish_date: 2021-10-20T00:00:00+00:00
     home_page: getting-started/
   latest:
     output: true
     permalink: /:collection/:path/
     type: "documentation"
     display_name: "Latest v21.1"
-    publish_date: 2021-10-13T00:00:00+00:00
-    home_page: getting-started/
-  v21.1:
-    output: true
-    permalink: /:collection/:path/
-    type: "documentation"
-    display_name: "v21.1"
     publish_date: 2021-10-13T00:00:00+00:00
     home_page: getting-started/
   v5.1.2:
